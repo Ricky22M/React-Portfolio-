@@ -7,17 +7,17 @@ import Projects from '../pages/Projects';
 import Resume from '../pages/Resume';
 
 export default function PortfolioContent() {
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('AboutMe');
 
     const renderActivePage = () => {
         if (currentPage === 'AboutMe') {
             return <AboutMe />;
-        } else if (currentPage === 'ContactMe') {
-            return <ContactMe />;
         } else if (currentPage === 'Projects') {
             return <Projects />;
-        } else if ( currentPage === 'Resume') {
+        } else if (currentPage === 'Resume') {
             return <Resume />;
+        } else if ( currentPage === 'ContactMe') {
+            return <ContactMe />;
         }
     }
 

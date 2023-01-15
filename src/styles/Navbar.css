@@ -1,0 +1,35 @@
+html {
+    background-color: #4c9091;
+}
+
+.headerStyle {
+    margin-bottom: 0% importnt !important;
+}
+
+nav {
+    background: linear-gradient(0.25turn, #2bc9cc, rgb(72, 217, 219), rgb(61, 194, 196), rgb(52, 166, 168), rgb(42, 128, 130)) !important;
+}
+
+.nameOnHeader {
+    font-size: xx-large !important;
+}
+
+.textStyle {
+    color: white !important;
+}
+
+.textStyle:hover {
+    color: #2af7c1 !important;
+}
+
+.onTogCollapse {
+    background-color: rgb(42, 128, 130) !important;
+}
+
+.onTogCollapse:hover {
+    background-color: #2af7c1 !important;
+}
+
+.activeNav {
+    color: #2af7c1 !important;
+}
