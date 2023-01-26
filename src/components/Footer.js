@@ -1,7 +1,7 @@
 // Will render the footer of the page
 
 import React from "react";
-import '../styles/Footer.css';
+import '../styles/comp-css/Footer.css';
 
 import GitHub from '../images/Footer/GitHub.png';
 import linkedIn from '../images/Footer/linkedIn.png';
