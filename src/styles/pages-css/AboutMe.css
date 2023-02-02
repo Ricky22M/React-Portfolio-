@@ -4,7 +4,9 @@
     background-color: rgb(225, 250, 244);
     padding: 1%;
     color: rgb(0, 0, 0);
-    min-height: 85vh;
+    min-height: 84vh;
+    display: flex;
+    justify-content: center;
 }
 
 .cardHeader {
@@ -16,8 +18,7 @@
     border-color: rgb(175, 219, 210);
 }
 
-.card {
-    background-color: rgb(225, 250, 244);
+.cardContent {
     max-width: 60%;
     min-width: 60%;
     max-height: 30%;
@@ -27,7 +28,8 @@
 .setHorizontal {
     display: flex;
     flex-direction: row;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
+    padding-left: 5%;
 }
 
 .setVertical {
@@ -40,21 +42,52 @@
     flex-direction: row-reverse;
 }
 
-.pictureAboutMe {
+.imageContainer {
+    max-width: 700px;
+    height: 375px;
+    margin: 32 auto;
     display: flex;
-    margin-left: 25%;
-    max-width: 50%;
-    height: 50%;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutMeSecImages {
+    margin-left: 40px;
+}
+
+.pictureAboutMe {
+    margin-right: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.happyRicky {
+    margin-left: 8%;
+}
+
+.interestSecImages {
+    margin-left: 100px;
+}
+
+.teamWorkPicture {
+    margin-right: 10%;
 }
 
 .hobbyImage {
     display: flex;
-    margin-right: 25%;
-    max-width: 100%;
-    height: 50%;
+    height: auto;
 }
 
 .leftMargin {
     margin-left: 8%;
+    padding-right: 6%;
 }
 
+.rightMargin {
+    margin-right: 8%;
+    padding-right: 15%;
+}
