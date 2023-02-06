@@ -4,7 +4,6 @@
     width: 100%;
     background: linear-gradient(0.25turn, #2bc9cc, rgb(72, 217, 219), rgb(61, 194, 196), rgb(52, 166, 168), rgb(42, 128, 130)) !important;
     justify-content: center;
-    max-height: 70px;
 }
 
 .setMargin {
@@ -14,12 +13,25 @@
     margin: 15px;
 }
 
-.logoSize {
+.gitHubSize {
+    background-color: #2bc9cc;
+    border-radius: 50%;
+    width: 40px;
+    height: 50px;
+}
+
+.gitHubSize:hover {
+    max-height: translateY(-0.2rem);
+    transition: transform 150ms;
+    opacity: .5;
+}
+
+.linkedInSize {
     max-height: 40px;
     min-height: 50px;
 }
 
-.logoSize:hover {
+.linkedInSize:hover {
     max-height: translateY(-0.2rem);
     transition: transform 150ms;
     opacity: .5;
