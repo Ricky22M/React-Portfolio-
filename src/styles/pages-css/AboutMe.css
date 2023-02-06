@@ -66,11 +66,12 @@
 }
 
 .happyRicky {
-    margin-left: 8%;
+    margin-left: 3%;
 }
 
 .interestSecImages {
-    margin-left: 100px;
+    display: flex;
+    margin-left: 80px;
 }
 
 .teamWorkPicture {
@@ -83,11 +84,17 @@
 }
 
 .leftMargin {
-    margin-left: 8%;
-    padding-right: 6%;
+    margin-left: 20%;
+    padding-right: 5%;
 }
 
 .rightMargin {
     margin-right: 8%;
     padding-right: 15%;
+}
+
+.customText {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
 }

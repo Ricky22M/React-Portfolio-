@@ -15,7 +15,7 @@ function AboutMe() {
             <div className="setHorizontal rightMarign">
                 <div className="cardContent">
                     <h3 className="cardHeader">About Me</h3>
-                    <p className="textLeftContent">
+                    <p className="customText">
                         I'm Ricky Medina, an 18-year-old, ambitious, Full-Stack Web Developer. I'm a fresh graduate from West Wendover High School, 
                         it's been only six months since I graduated and have already completed a Coding Bootcamp from the esteemed college of the University of Utah. 
                         I've been actively learning about software development for the past two years now, and I'm finally getting into the groove of being a Full-Stack Software Developer.
@@ -32,7 +32,7 @@ function AboutMe() {
             <div className="reversedHorizontal">
                 <div className="cardContent leftMargin">
                     <h3 className="cardHeader">My Interest</h3>
-                    <p className="textRightContent">
+                    <p className="customText">
                         Through the life I've lived, I've come to understand that people are a big part in my life. Whether these same people have similar or
                         different goals than I do, I always tend to build a positive relationship with those around me and make the most I can with these people.
                         Meeting, building, and savoring these relationships with others is an interest of mine that I value deeply. I enjoy the aspect of meeting different
