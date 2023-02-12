@@ -39,10 +39,10 @@ function AboutMe() {
                         people, understanding their thought processes, and learning from them. I'm a lifelong learner that will not give up a chance to meet others.
                     </p>
                 </div>
-                    <div className="imageContainer interestSecImages">
-                        <img className="teamWorkPicture" src ={teamPicture} alt="Team with plaques of acheivements"/>
-                        <img className="hobbyImage" src={interestImage} alt="Hobby of meeting new people"/>
-                    </div>
+                <div className="imageContainer interestSecImages">
+                    <img className="teamWorkPicture" src ={teamPicture} alt="Team with plaques of acheivements"/>
+                    <img className="hobbyImage" src={interestImage} alt="Hobby of meeting new people"/>
+                </div>
             </div>
         </div>
     );
