@@ -3,6 +3,9 @@
 // importing react
 import React from 'react';
 
+// importing CSS file
+import '../styles/pages-css/Projects.css'
+
 // importing images from my previous individual projects
 import socialNetWork from '../images/Projects/Social-network-api-project.png';
 import eCommerceBackend from '../images/Projects/E-commerce-Backedn-project.png';
@@ -37,8 +40,7 @@ function Projects() {
                             </p>
                             <h6>
                                 This project could only be shown through the backend of the application, and therefore could not be deployed.
-                                Though if you are interested in this project, please refer to my GitHub repository link 
-                                <a href='https://github.com/Ricky22M/Social-Network-API'>here</a>. 
+                                Though if you are interested in this project, please refer to my GitHub repository link <a href='https://github.com/Ricky22M/Social-Network-API'>here</a>. 
                                 I showcase the workings of this application through my video walkthrough in my README.
                             </h6>
                         </figcaption>
@@ -59,8 +61,7 @@ function Projects() {
                             </p>
                             <h6>
                                 This project could only be shown through the backend of the application, and therefore could not be deployed. However, 
-                                if you seem interest in this project, please to my GitHub repository link 
-                                <a href='https://github.com/Ricky22M/E-Commerce-Back-End'>here</a>.
+                                if you seem interest in this project, please to my GitHub repository link <a href='https://github.com/Ricky22M/E-Commerce-Back-End'>here</a>.
                                 I showcase the workings of this application through my video walkthrough in my README.
                             </h6>
                         </figcaption>
@@ -79,9 +80,8 @@ function Projects() {
                             </p>
                             <h6>
                                 This project could only be shown through the command-line of the application's terminal, and therefore could not be deployed.
-                                However, if you are interested in this project, please refer to my GitHub repository link 
-                                <a href='https://github.com/Ricky22M/Employee-Tracker'>here</a>
-                                I showcase the workings of this application through my video walkthrough in my README.
+                                However, if you are interested in this project, please refer to my GitHub repository link <a href='https://github.com/Ricky22M/Employee-Tracker'>here</a>. I
+                                showcase the workings of this application through my video walkthrough in my README.
                             </h6>
                         </figcaption>
                     </figure>
@@ -100,8 +100,7 @@ function Projects() {
                             </p>
                             <h6>
                                 This project could only be shown through the command-line of the application's terminal, and therefore could not be deployed.
-                                However, if you are interested in this project, please refer to my GitHub repository link 
-                                <a href='https://github.com/Ricky22M/Team-Profile-Generator'>here</a>.
+                                However, if you are interested in this project, please refer to my GitHub repository link <a href='https://github.com/Ricky22M/Team-Profile-Generator'>here</a>.
                                 I showcase the workings of this application through my video walkthrough in my README.
                             </h6>
                         </figcaption>
@@ -186,7 +185,7 @@ function Projects() {
                 </div>
             </div>
             <h1 className="projectHeader">My Group Projects</h1>
-            <div className="row main d-flex col-12 col-sm-12 col-lg-12 col-xxl-5 carderBorder">
+            <div className="row main d-flex justify-content-evenly">
                 <div className="col-12 col-sm-12 col-lg-12 col-xxl-5 cardBorder">
                     <figure className="setFigure">
                         <a href="https://github.com/zacfisher1990/Recipe_Picker">
@@ -199,7 +198,7 @@ function Projects() {
                                 ingredients for. When the user uses our application we have a "login" and "logout" function to help build a community with our app.
                                 We used a third-party api to help find the recipes for the user as well as have the users save their recipes to their accounts.
                                 My role in this project was to do the frontend, more specificly what I did in this project was build and design the pages for our app, while
-                                I had my other partner ,in the frontend, style the page with CSS. I also help create the routes for each page while and some saving functionality
+                                I had my other partner, in the frontend, style the page with CSS. I also help create the routes for each page while and some saving functionality
                                 for the recipes for each user.
                             </p>
                             <a href="https://recipe--picker.herokuapp.com/">

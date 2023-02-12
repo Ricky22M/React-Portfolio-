@@ -1,1 +1,48 @@
 /* This file will style the projects page */
+
+.projectsContainer {
+    padding: 2%;
+    min-height: 84vh;
+    background-color: rgb(225, 250, 244);
+}
+
+.projectHeader {
+    margin: 1%;
+    border-style: groove;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    max-width: 23%;
+}
+
+.projectImages {
+    margin: 1%;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.projectImages:hover {
+    transform: translate(-0.2rem);
+    transition: transform 150rem;
+    opacity: .5;
+}
+
+.setFigure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.figureCaption {
+    text-align: center;
+}
+
+.cardBorder {
+    margin: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    /* may have to change the border color */
+    border-color: black;
+    padding: 1%;
+}
