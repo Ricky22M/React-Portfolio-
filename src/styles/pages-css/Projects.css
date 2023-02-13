@@ -7,6 +7,7 @@
 }
 
 .projectHeader {
+    /* color: rgb(61, 194, 196); */
     margin: 1%;
     border-style: groove;
     border-top: 0px;
@@ -35,6 +36,7 @@
 }
 
 .figureCaption {
+    /* color: rgb(61, 194, 196); */
     text-align: center;
 }
 
@@ -42,7 +44,14 @@
     margin: 15px;
     border-radius: 10px;
     border-style: solid;
-    /* may have to change the border color */
-    border-color: black;
+    border-color: rgb(61, 194, 196);
     padding: 1%;
+}
+
+p {
+   font-size: 18px;
+}
+
+h6 {
+    font-size: 20px;
 }
