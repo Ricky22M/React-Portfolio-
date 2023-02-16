@@ -1,13 +1,13 @@
 // This page will render the resume page
 
 // Imports React
-import react from "react";
+import React from "react";
 
 // Imports CSS for the resume page
 import '../styles/pages-css/Resume.css';
 
 // need to add a downloadable resume file document
-import resume from '../resume/'
+import resume from '../resume/RickyMedinaResume.pdf';
 
 // Returns the content on the Resume page
 function Resume() {
@@ -15,36 +15,39 @@ function Resume() {
         <div className="resumeContainer">
             <div>
                 <h2 className="header">
-                    Coding Languages
+                    Coding Proficiencies
                 </h2>
                 <div className="contentBody">
-                    <ul className="row main d-flex justify-content-evenly codeList">
+                    <ul className="row main d-flex justify-content-between codeList">
                         <li className="col-2 languageItem">
-                            Add language HERE
+                            Git
                         </li>
                         <li className="col-2 languageItem">
-                            Add language HERE
+                            HTML5
                         </li>
                         <li className="col-2 languageItem">
-                            Add language HERE
+                            CSS
                         </li>
                         <li className="col-2 languageItem">
-                            Add language HERE
+                            JavaScript
                         </li>
                         <li className="col-2 languageItem">
-                            Add language HERE
+                            Node.JS
                         </li>
                         <li className="col-2 languageItem">
-                            Add language HERE
+                            Express.JS
                         </li>
                         <li className="col-2 languageItem">
-                            Add language HERE
+                            SQL
                         </li>
                         <li className="col-2 languageItem">
-                            Add language HERE
+                            MongoDB
                         </li>
                         <li className="col-2 languageItem">
-                            Add language HERE
+                            GraphQL
+                        </li>
+                        <li className="col-2 languageItem">
+                            React
                         </li>
                     </ul>
                 </div>
@@ -54,32 +57,17 @@ function Resume() {
                     Current Employment
                 </h2>
                 <div className="contentCard">
-                    <h4>official title here</h4>
+                    <h4>Big 5 Sporting Goods Sales Associate</h4>
                     <h6>2022 - Current</h6>
                     <div className="contentBody">
                         <ul className="row main d-flex justify-content-evenly">
                             <li>
-                                A brief description of what we do at our current employment
+                                I proform sales and service throughout the store and ensure a productive shopping experience for all customers.
                             </li>
                             <li>
-                                A brief description of what we do at our current employment
-                            </li>
-                            <li>
-                                A brief description of what we do at our current employment
-                            </li>
-                            <li>
-                                A brief description of what we do at our current employment
-                            </li>
-                            <li>
-                                A brief description of what we do at our current employment
-                            </li>
-                            <li>
-                                A brief description of what we do at our current employment
-                            </li>
-                            <li>
-                                Certifications: <ul>
-                                    <li>Full-Stack Web Developer</li>
-                                </ul>
+                                Other responsibilities include, but are not limited to, directing customers, answering telephones, providing product descriptions, 
+                                proposing add-on sales to customers, checking and retrieving merchandise from storage areas, cleaning, restocking, 
+                                and organizing merchandise on the sales floor.
                             </li>
                         </ul>
                     </div>
