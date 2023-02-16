@@ -36,7 +36,7 @@ function Projects() {
                             <p>
                                 This Social Network API project is based on the use of MongoDB, which in this case, was able to showcase 
                                 a social network application. In this application, a new user can be created to add other users in the 
-                                database. All users are able to make or remove thoughts, friends, and/or reactions.
+                                database. All users can make or remove thoughts, friends, and/or reactions.
                             </p>
                             <h6>
                                 This project could only be shown through the backend of the application, and therefore could not be deployed.
@@ -55,9 +55,9 @@ function Projects() {
                             <h5>E-Commerce Backend</h5>
                             <p>
                                 In this project, I was able to build a backend application with the use of MySQL for an E-Commerce Site.
-                                This application allows the user to use GET routes to search for all catergories, products, and tags.
-                                As the user, you are also able to update a catergory, product, and tag using its specific ID for its classification.
-                                The user is also able to create or delete their own catergories, products, or tags using the ID for its classification.
+                                This application allows the user to use GET routes to search for all categories, products, and tags.
+                                As the user, you are also able to update a category, product, and tag using its specific ID for its classification.
+                                The user is also able to create or delete their categories, products, or tags using the ID for its classification.
                             </p>
                             <h6>
                                 This project could only be shown through the backend of the application, and therefore could not be deployed. However, 
@@ -94,7 +94,7 @@ function Projects() {
                         <figcaption className="figureCaption">
                             <h5>Team Profile Generator</h5>
                             <p>
-                                In this web application, the user is able to create a team by answering a few questions through the command-line of the application's terminal.
+                                In this web application, the user can create a team by answering a few questions through the command-line of the application's terminal.
                                 This will prompt the user to answer a few questions about their team to create a card for each person entering the team.
                                 This application allows users to create a team of their own workforce to have an easier visual representation of their team on paper.
                             </p>
@@ -114,8 +114,8 @@ function Projects() {
                         <figcaption className="figureCaption">
                             <h5>Weather Dashboard</h5>
                             <p>
-                                This application is used to show the user the weather forcast for the area they have decided to look up in the search bar.
-                                The user will be presented with multiple cards that show the weather for the current day as well as the weather forcast for
+                                This application is used to show the user the weather forecast for the area they have decided to look up in the search bar.
+                                The user will be presented with multiple cards that show the weather for the current day as well as the weather forecast for
                                 the next five days.
                             </p>
                             <a href="https://ricky22m.github.io/Weather-Dashboard/">
@@ -135,7 +135,7 @@ function Projects() {
                                 This project is designed for users who work a 9:00 a.m. to 5:00 p.m. job and they need to constantly schedule their work
                                 plans throughout their day for everyday use at work. This project will help those users to stay on track and meet their daily work assignments on time.
                                 Here, users can type out their plans or notes for every time block of the day to help them keep try of their tasks.
-                                They can also save and these written notes or plans and it will not be deleted even after refreshing the page.
+                                They can also save these written notes or plans and they will not be deleted even after refreshing the page.
                             </p>
                             <a href="https://ricky22m.github.io/Work-Day-Scheduler/">
                                 <h6>Click here to visit the deployed link to the web application.</h6>
@@ -171,11 +171,11 @@ function Projects() {
                             <h5>Coding Quiz</h5>
                             <p>
                                 This simple project was made to test the knowledge of the user on simple coding questions. Upon visiting the web application,
-                                the user will be presented to a page with a timer to start the quiz and to view the high scores that have been stored locally.
-                                As you run through the test, the user will be prompted multiple questions with mulitple answers. Each time the user answers the 
+                                the user will be presented with a page with a timer to start the quiz and to view the high scores that have been stored locally.
+                                As you run through the test, the user will be prompted multiple questions with multiple answers. Each time the user answers the 
                                 questions correctly then they will proceed to the next question, and if they answer incorrectly, they will have their timer subtract
-                                ten seconds off their curent time. The game will also end if the timer reaches zero. At the end of the quiz, the user can enter their 
-                                name to show off their new highscore.
+                                ten seconds from their current time. The game will also end if the timer reaches zero. At the end of the quiz, the user can enter their 
+                                name to show off their new high score.
                             </p>
                             <a href="https://ricky22m.github.io/Code-Quiz/">
                                 <h6>Click here to visit the deployed link to the web application.</h6>
@@ -196,7 +196,7 @@ function Projects() {
                             <p>
                                 In this project, I worked with a team to help build a web application that would help users pick recipes for meals that they had ingredients for. 
                                 When the user uses our application we have a "login" and "logout" function to help build a community with our app. We used a third-party API to help 
-                                find the recipes for the user as well as have the users save their recipes to their accounts. My role in this project was to do the front end, more 
+                                find the recipes for the user and have the users save their recipes to their accounts. My role in this project was to do the front end, more 
                                 specifically what I did in this project was build and design the pages for our app while I had my other partner in the front end style the page with CSS. 
                                 I also helped to create the routes for each page and some saving functionality for the recipes for each user.
                             </p>
@@ -216,9 +216,9 @@ function Projects() {
                             <p>
                                 My Music Box is a MERN stack web application that allows users to search for music, favorite songs, and comment on songs.
                                 In this project, we used a third-party API to look for music so that users could see their favorite artist's music come 
-                                up when they search for their name or songs. Starting this project I was assigned to the backend with another partner, 
+                                up when they search for their names or songs. Starting this project I was assigned to the backend with another partner, 
                                 however, sometime starting this project we had many difficulties with the front end and therefore I went to the front end side.
-                                I handled using a new CSS library inside a NPM package with React and helped to design and build the pages in our project.
+                                I handled using a new CSS library inside an NPM package with React and helped to design and build the pages in our project.
                             </p>
                             <a href="https://my-music-box-app.herokuapp.com/">
                                 <h6>Click here to visit the deployed link to the web application.</h6>
