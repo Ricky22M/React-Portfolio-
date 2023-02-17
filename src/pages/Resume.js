@@ -58,7 +58,7 @@ function Resume() {
                 </h2>
                 <div className="contentCard">
                     <h4>Big 5 Sporting Goods Sales Associate</h4>
-                    <h6>2022 - Current</h6>
+                    <h6>July 2022 - Current</h6>
                     <div className="contentBody">
                         <ul className="row main d-flex justify-content-evenly">
                             <li>
@@ -75,44 +75,38 @@ function Resume() {
             </div>
             <div>
                 <h2 className="header">
-                    Previous Employment
+                    Education
                 </h2>
                 <div className="contentCard">
-                    <h4>official job title</h4>
-                    <h6>from when to when</h6>
+                    <h4>Graduated from the University of Utah</h4>
+                    <h6>July 2022 - January 2023</h6>
                     <div className="contentBody">
                         <ul className="row main d-flex justify-content-evenly">
                             <li>
-                                A brief description of what we do at our current employment
+                                A 24-week intestive bootcamp program focused on programming skills.
                             </li>
                             <li>
-                                A brief description of what we do at our current employment
+                                Engaged with teams to build and code an application together to gain team-working experience.
                             </li>
                             <li>
-                                A brief description of what we do at our current employment
+                                Learned to use cloud based technologies such as GitHub, Heroku, etc.
                             </li>
                             <li>
-                                A brief description of what we do at our current employment
+                                Learned to build a reactive, responive, and accessible website.
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div className="contentCard">
-                    <h4>official job title</h4>
-                    <h6>from when to when</h6>
+                    <h4>Graduated from West Wendover High School</h4>
+                    <h6>Graduated July 2022</h6>
                     <div className="contentBody">
                         <ul className="row main d-flex justify-content-evenly">
                             <li>
-                                A brief description of what we do at our current employment
+                                Learned to work most effectively with all different kinds of people giving me better perspectives of strategy.
                             </li>
                             <li>
-                                A brief description of what we do at our current employment
-                            </li>
-                            <li>
-                                A brief description of what we do at our current employment
-                            </li>
-                            <li>
-                                A brief description of what we do at our current employment
+                                Learned to prioritize tasks and manage my time adequately.
                             </li>
                         </ul>
                     </div>
