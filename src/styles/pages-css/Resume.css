@@ -1,2 +1,47 @@
 /* Adds styling to the resume page */
 
+.resumeContainer {
+    background-color: rgb(225, 250, 244);
+    min-height: 84vh;
+    padding: 2%;
+}
+
+.header {
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.contentCard {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(61, 194, 196);;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+.codeList {
+    list-style-type: none;
+}
+
+.languageItem {
+    text-align: center;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(61, 194, 196);
+}
+
+.downloadResume {
+    display: flex;
+    justify-content: center;
+}
+
+.resumeButton:hover {
+    transform: translateY(-0.2rem);
+    transition: transform 150ms;
+    opacity: .5;
+}
