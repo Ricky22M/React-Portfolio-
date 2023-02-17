@@ -113,4 +113,5 @@ function Resume() {
     );
 }
 
+// Exports the Resume function
 export default Resume;

@@ -231,4 +231,5 @@ function Projects() {
     );
 }
 
+// Exports Projects function
 export default Projects;

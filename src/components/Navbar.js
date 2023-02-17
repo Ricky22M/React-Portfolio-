@@ -1,6 +1,12 @@
+// This will render the NavBar
+
+// Imports React
 import React from 'react';
+
+// Imports CSS styling for the NavBar
 import '../styles/comp-css/NavBar.css';
 
+// Returns the HTML for the NavBar
 function NavBar({ currentPage, renderPageSwitch }) {
     return (
         <header className='headerStyle'>
@@ -32,4 +38,5 @@ function NavBar({ currentPage, renderPageSwitch }) {
     );
 }
 
+// Exports the NavBar function
 export default NavBar;

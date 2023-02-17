@@ -1,14 +1,18 @@
 // This page will render the About Me page when it is set to active
 
+// Imported React
 import React from "react";
 
+// Imports CSS Styling for this page
 import '../styles/pages-css/AboutMe.css';
 
+// Imports all images used for the About Me page
 import imageOfMe from '../images/AboutMe/fresh-grad.jpeg';
 import interestImage from '../images/AboutMe/interests-image.JPG';
 import teamPicture from '../images/AboutMe/teamPicture.JPG';
 import outGoingPicture from '../images/AboutMe/outGoing.jpg';
 
+// Returns all HTML for the About Me page
 function AboutMe() {
     return (
         <div className="aboutMyself setVertical">
@@ -48,4 +52,5 @@ function AboutMe() {
     );
 }
 
+// Exports AboutMe function
 export default AboutMe;

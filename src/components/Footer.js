@@ -1,12 +1,16 @@
 // Will render the footer of the page
 
+// Imports React
 import React from "react";
+
+// Imports CSS styling for the footer
 import '../styles/comp-css/Footer.css';
 
+// Imports images used in the footer
 import GitHub from '../images/Footer/GitHub.png';
 import linkedIn from '../images/Footer/linkedIn.png';
 
-
+// Returns the HTML used in the footer
 function Footer() {
     return (
         <footer className="text-center text-white setFotter">
@@ -24,4 +28,5 @@ function Footer() {
     );
 }
 
+// Exports the footer function
 export default Footer;
