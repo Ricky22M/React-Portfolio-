@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio-/static/css/main.6aa9519f.chunk.css",
+    "main.js": "/React-Portfolio-/static/js/main.e3d8294c.chunk.js",
+    "main.js.map": "/React-Portfolio-/static/js/main.e3d8294c.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio-/static/js/runtime-main.e36408ed.js",
+    "runtime-main.js.map": "/React-Portfolio-/static/js/runtime-main.e36408ed.js.map",
+    "static/css/2.f26e749f.chunk.css": "/React-Portfolio-/static/css/2.f26e749f.chunk.css",
+    "static/js/2.2174a14e.chunk.js": "/React-Portfolio-/static/js/2.2174a14e.chunk.js",
+    "static/js/2.2174a14e.chunk.js.map": "/React-Portfolio-/static/js/2.2174a14e.chunk.js.map",
+    "index.html": "/React-Portfolio-/index.html",
+    "static/css/2.f26e749f.chunk.css.map": "/React-Portfolio-/static/css/2.f26e749f.chunk.css.map",
+    "static/css/main.6aa9519f.chunk.css.map": "/React-Portfolio-/static/css/main.6aa9519f.chunk.css.map",
+    "static/js/2.2174a14e.chunk.js.LICENSE.txt": "/React-Portfolio-/static/js/2.2174a14e.chunk.js.LICENSE.txt",
+    "static/media/Code-Quiz-project.8070a726.png": "/React-Portfolio-/static/media/Code-Quiz-project.8070a726.png",
+    "static/media/E-commerce-Backedn-project.4757fe94.png": "/React-Portfolio-/static/media/E-commerce-Backedn-project.4757fe94.png",
+    "static/media/Employee-tracker-project.c70daa89.png": "/React-Portfolio-/static/media/Employee-tracker-project.c70daa89.png",
+    "static/media/My-Musicbox-project.1813703b.png": "/React-Portfolio-/static/media/My-Musicbox-project.1813703b.png",
+    "static/media/Password-Generator.80fcae4f.png": "/React-Portfolio-/static/media/Password-Generator.80fcae4f.png",
+    "static/media/Recipe-Picker-project.a69bc4e5.png": "/React-Portfolio-/static/media/Recipe-Picker-project.a69bc4e5.png",
+    "static/media/RickyMedinaResume.aeadc372.pdf": "/React-Portfolio-/static/media/RickyMedinaResume.aeadc372.pdf",
+    "static/media/Social-network-api-project.c4137d15.png": "/React-Portfolio-/static/media/Social-network-api-project.c4137d15.png",
+    "static/media/Team-Profile-Generator-Screenshot.6710610e.png": "/React-Portfolio-/static/media/Team-Profile-Generator-Screenshot.6710610e.png",
+    "static/media/Weather-Dashboard-Webpage.e4def435.png": "/React-Portfolio-/static/media/Weather-Dashboard-Webpage.e4def435.png",
+    "static/media/Work-Day-Scheduler-project.c1738b4b.png": "/React-Portfolio-/static/media/Work-Day-Scheduler-project.c1738b4b.png",
+    "static/media/fresh-grad.7c566dc4.jpeg": "/React-Portfolio-/static/media/fresh-grad.7c566dc4.jpeg",
+    "static/media/interests-image.28cd328e.JPG": "/React-Portfolio-/static/media/interests-image.28cd328e.JPG",
+    "static/media/outGoing.7ca711af.jpg": "/React-Portfolio-/static/media/outGoing.7ca711af.jpg",
+    "static/media/stackOF.0123b8df.png": "/React-Portfolio-/static/media/stackOF.0123b8df.png",
+    "static/media/teamPicture.9a9ed53c.JPG": "/React-Portfolio-/static/media/teamPicture.9a9ed53c.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e36408ed.js",
+    "static/css/2.f26e749f.chunk.css",
+    "static/js/2.2174a14e.chunk.js",
+    "static/css/main.6aa9519f.chunk.css",
+    "static/js/main.e3d8294c.chunk.js"
+  ]
+}
