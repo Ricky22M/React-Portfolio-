@@ -1,0 +1,18 @@
+/* This will style the contact me page */
+
+.contactContainer {
+    background-color: rgb(225, 250, 244);
+    padding: 5%;
+    min-height: 83vh;
+}
+
+.contactHeader {
+    padding-bottom: 3%;
+}
+
+.contactForm {
+    border-style: solid;
+    border-color: rgb(61, 194, 196);
+    padding: 3%;
+    display: flex;
+}

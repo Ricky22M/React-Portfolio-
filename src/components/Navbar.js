@@ -28,7 +28,7 @@ function NavBar({ currentPage, renderPageSwitch }) {
                                 <a href='#Resume' onClick={() => renderPageSwitch('Resume')} className={currentPage === 'Resume' ? 'nav-link activeNav' : 'nav-link textStyle'}>Resume</a>
                             </li>
                             <li className="nav-item">
-                                <a href='#Contact' onClick={() => renderPageSwitch('ContactMe')} className={currentPage === 'ContactMe' ? 'nav-link activeNav' : 'nav-link textStyle'}>Contact Me</a>
+                                <a href='#ContactMe' onClick={() => renderPageSwitch('ContactMe')} className={currentPage === 'ContactMe' ? 'nav-link activeNav' : 'nav-link textStyle'}>Contact Me</a>
                             </li>
                         </ul>
                     </div>

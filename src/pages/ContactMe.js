@@ -25,7 +25,7 @@ function Form() {
         if (inputType === 'email') {
             setEmail(inputValue);
         } else if (inputType === 'userName') {
-            setUserName(userName);
+            setUserName(inputValue);
         } else {
             setMessage(inputValue);
         }
@@ -38,10 +38,14 @@ function Form() {
         if (!validateEmail(email)) {
             setErrorMessage('Email is invalid or missing');
             return;
-        }else if (!userName) {
+        }
+        
+        if (!userName) {
             setErrorMessage('Please provide your name in the textbox');
             return;
-        } else if (!message) {
+        }
+        
+        if (!message) {
             setErrorMessage('Please provide the reason of contact in the textbox below');
             return;
         } else {
@@ -56,9 +60,9 @@ function Form() {
     // This will return the Contact Me page in HTML
     return (
         <div className='contactContainer'>
-            <h2>Contact Me!</h2>
-            <form className='contactForm'>
-                <div className='mb-3'>
+            <h2 className='contactHeader d-flex justify-content-center'>Contact Me!</h2>
+            <form className='contactForm row d-flex justify-content-center'>
+                <div className='mb-3 pb-4'>
                     <input
                         value={email}
                         name='email'
@@ -66,36 +70,36 @@ function Form() {
                         onChange={handleInputChange}
                         className="form-control"
                         id="email"
-                        placeholder='Please Enter Email Here'>
+                        placeholder='Please Enter Your Email Here'>
                     </input>
                 </div>
-                <div className='mb-3'>
+                <div className='mb-3 pb-4'>
                     <input
                         value={userName}
                         name='userName'
-                        type='userName'
+                        type='text'
                         onChange={handleInputChange}
                         className="form-control"
                         id="userName"
-                        placeholder='Please Enter Name Here'>
+                        placeholder='Please Enter Your Name Here'>
                     </input>
                 </div>
-                <div className='mb-3'>
+                <div className='mb-3 pb-4'>
                     <input
                         value={message}
                         name='message'
-                        type='message'
+                        type='text'
                         onChange={handleInputChange}
                         className="form-control"
                         id="message"
                         placeholder='Please Provide Reason of Contact Here'>
                     </input>
                 </div>
-                <button type='submit' className='btn btn-primary' id="contactSubmit" onClick={handleFormSubmit}>Submit</button>
+                <button type='submit' className='btn btn-dark' id="contactSubmit" onClick={handleFormSubmit}>Submit</button>
             </form>
             {errorMessage && (
-                <div>
-                    <p className='error-text'>{errorMessage}</p>
+                <div className='d-flex justify-content-center pt-3'>
+                    <p className='text-danger'>{errorMessage}</p>
                 </div>
             )}
         </div>
