@@ -1,10 +1,10 @@
 # Ricky-Medina-Portfolio
 
 ## Screenshot
-[//]: <> (add a screenshot to the README of our portfolio)
+![Image of my portfolio](./src/images/Readme/ScreenShot%20of%20Portfolio.png)
 
 ## Deployed Link
-[//]: <> (add the deployed link from GitHub)
+[Portfolio Deployed Link Here](https://ricky22m.github.io/React-Portfolio-/)
 
 ## Description
 A React single page application used to create my portfolio to present my most impressive coding projects to employers.
